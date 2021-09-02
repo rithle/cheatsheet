@@ -1,0 +1,17 @@
+header h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: darkgoldenrod;
+    background-color: lightgrey;
+}
+
+section h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.definition {
+    background-color: lightpink;
+}
