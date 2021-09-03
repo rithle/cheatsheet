@@ -1,9 +1,20 @@
-header h1 {
+body {
+    width: 80%;
+    margin: 0 auto;
     font-family: Helvetica, sans-serif;
-    font-size: 100px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
     text-align: center;
     color: darkgoldenrod;
     background-color: lightgrey;
+}
+
+h1 {
+    padding: 10px;
 }
 
 section h1 {
@@ -12,6 +23,78 @@ section h1 {
     text-align: left;
 }
 
-.definition {
+.definition h1 {
     background-color: lightpink;
 }
+
+.quotes h1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.abbreviations h1 {
+    background-color: lightskyblue;
+}
+
+.contacts h1 {
+    background-color: lightcoral;
+}
+
+.supersub h1 {
+    background-color: lightgrey;
+}
+
+.code h1 {
+    background-color: lightseagreen;
+}
+
+.time h1 {
+    background-color: lightcyan;
+}
+
+table {
+    margin-left: 20%;
+    margin-right: auto;
+    border: 2px solid lightslategrey;
+}
+
+table:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+td {
+    border-top: 2px solid lightslategrey;
+}
+
+td:nth-child(1) {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+    background-color: linen;
+}
+
+th:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+th:nth-child(2) {
+    width: 200px;
+    text-align: left;
+}
+
+th:nth-child(3) {
+    width: 500px;
+    text-align: left;
+}
+
+section:nth-last-of-type(1) {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
