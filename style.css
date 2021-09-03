@@ -63,18 +63,23 @@ table:nth-of-type(2) {
 
 td {
     border-top: 2px solid lightslategrey;
+    padding-left: 10px;
 }
 
 td:nth-child(1) {
+    padding-left: 0;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightpink;
 }
 
 th {
     background-color: linen;
+    padding-left: 10px;
 }
 
 th:nth-child(1) {
+    padding: 0;
     width: 100px;
     text-align: center;
 }
